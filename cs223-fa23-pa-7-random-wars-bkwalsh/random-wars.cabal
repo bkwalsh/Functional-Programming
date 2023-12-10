@@ -1,0 +1,20 @@
+cabal-version:      2.4
+name:               random-wars
+version:            0.1.0.0
+
+executable tests
+  hs-source-dirs:   .
+  main-is:          Tester.hs
+  other-modules:    Cards, RawShuffle, State, MonadicShuffle
+  ghc-options:      -main-is Tester
+  build-depends:    base, containers, random
+  default-language: GHC2021
+
+executable random-wars
+  hs-source-dirs:   .
+  main-is:          RandomWars.hs
+  other-modules:    Cards, State, MonadicShuffle
+  -- The following allows a different name than `Main` for the main module
+  ghc-options:      -main-is RandomWars
+  build-depends:    base, containers, random
+  default-language: GHC2021

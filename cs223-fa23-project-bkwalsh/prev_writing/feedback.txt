@@ -1,0 +1,9 @@
+===== Project Feedback =====
+member: bkwalsh
+
+Loren's Feedback:
+Looks like a good project. Make sure to make full use o what features of Haskell and which new libraries you bring in - a simple game of life simulator is a little too simple for what we're looking for.
+Bhakti's Feedback:
+Looks good! Consider using the brick library (or something similar) for visualizations on the command line; it might make your tasks easier.
+
+Score: 3/3

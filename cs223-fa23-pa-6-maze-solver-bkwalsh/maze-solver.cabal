@@ -1,0 +1,11 @@
+cabal-version:      2.4
+name:               maze-solver
+version:            0.1.0.0
+
+executable maze-solver
+  hs-source-dirs:   .
+  main-is:          MazeSolver.hs
+  -- The following allows a different name than `Main` for the main module
+  ghc-options:      -main-is MazeSolver
+  build-depends: base, containers, hip, process, unordered-containers
+  default-language: GHC2021

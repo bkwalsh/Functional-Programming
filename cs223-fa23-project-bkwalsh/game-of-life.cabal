@@ -1,0 +1,28 @@
+cabal-version:      2.4
+name:               game-of-life
+version:            0.1.0.0
+
+executable game-of-life
+  hs-source-dirs:   .
+  main-is:          GameLife.hs
+  other-modules:    
+    State
+    PreSetSeeds
+    PresetParser
+  ghc-options:      -main-is GameLife -threaded
+  build-depends:    base, 
+                    containers, 
+                    hip, 
+                    process,
+                    unordered-containers, 
+                    ansi-terminal, 
+                    vty >= 6.0, 
+                    brick, 
+                    random,
+                    optparse-applicative, 
+                    MonadRandom,
+                    microlens-th,
+                    microlens,
+                    microlens-mtl,
+                    parsec
+  default-language: GHC2021
