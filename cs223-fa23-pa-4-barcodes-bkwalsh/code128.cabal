@@ -1,0 +1,19 @@
+cabal-version:      2.4
+name:               code128
+version:            0.1.0.0
+
+executable code128
+  hs-source-dirs:   .
+  main-is:          Code128.hs
+  -- The following allows a different name than `Main` for the main module
+  ghc-options:      -main-is Code128
+  build-depends:    base, containers
+  default-language: GHC2021
+
+executable tests
+  hs-source-dirs:   .
+  main-is:          Tester.hs
+  other-modules:    Code128
+  ghc-options:      -main-is Tester
+  build-depends:    base, containers
+  default-language: GHC2021

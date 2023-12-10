@@ -1,0 +1,5 @@
+Usage:
+
+  ./wordle                  Play random game
+  ./wordle gameNumber       Play specific game
+  ./wordle --how-to-play    Display instructions

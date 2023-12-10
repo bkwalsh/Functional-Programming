@@ -1,0 +1,12 @@
+
+HOW TO PLAY
+
+Guess the WORDLE in 6 tries.
+
+Each guess must be a valid 5 letter word. Hit the enter button to submit.
+
+Examples
+
+  W [e][a][r][y]  The letter W is in the word and in the correct spot.
+ [p] i [l][l][s]  The letter I is in the word but in the wrong spot.
+ [v][a][g][u][e]  None of the letters are in the word in any spot.
